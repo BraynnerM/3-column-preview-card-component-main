@@ -1,0 +1,38 @@
+@media (max-width: 930px) {
+    body {
+        height: auto;
+    }
+    .container {
+        flex-direction: column;
+        width: 32.5rem;
+        height: 133rem;
+        margin-top: 10rem;
+    }
+
+    img {
+        position: relative;
+        top: 1.4rem;
+    }
+
+    h2 {
+        position: relative;
+        top: 2.8rem;
+    }
+
+    p {
+        position: relative;
+        top: 2.8rem;
+    }
+
+    button {
+        position: relative;
+        bottom: 1.6rem;
+    }
+    .sedan {        
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .luxury {        
+        border-radius: 0 0 1rem 1rem;
+    }
+}
